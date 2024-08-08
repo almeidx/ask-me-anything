@@ -4,10 +4,10 @@ export default {
 	content: ["./index.html", "./src/**/*.tsx"],
 	theme: {
 		extend: {
-      fontFamily: {
-        sans: ["Inter", "sans-serif"],
-      }
-    },
+			fontFamily: {
+				sans: ["Inter", "sans-serif"],
+			},
+		},
 	},
 	plugins: [],
 } satisfies Config;
